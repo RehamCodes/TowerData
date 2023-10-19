@@ -1,0 +1,8 @@
+<div class="toggler-wrapper">
+    <input type="checkbox" id="switch" [(ngModel)]="isTableVisible" />
+    <label for="switch">Toggle</label>
+</div>
+<div class="content-wrapper">
+    <bar-chart *ngIf="isTableVisible"></bar-chart>
+    <table-pagination *ngIf="!isTableVisible"></table-pagination>
+</div>

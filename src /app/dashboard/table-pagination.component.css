@@ -1,0 +1,9 @@
+table {
+  width: 100%;
+}
+.mat-elevation {
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 0 8px 11px rgb(0 0 0 / 0.2);
+}
