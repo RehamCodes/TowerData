@@ -8,15 +8,7 @@ To run the application locally, follow the steps below:
 
 1. Clone the repository to your local machine:
 
-   ```
-   git clone https://github.com/RehamCodes/angular-dashbored.git
-   ```
-
 2. Navigate to the project's directory:
-
-   ```
-   cd angular-dashbored
-   ```
 
 3. Install the dependencies using npm:
 
