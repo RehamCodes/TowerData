@@ -45,7 +45,7 @@ export class ChartComponent {
           case '5G':
             filteredData5G.push(item);
             break;
-          // Add more cases for other technologies if needed
+         
         }
       });
   
@@ -55,11 +55,12 @@ export class ChartComponent {
       const count2G = filteredData2G.length;
       const count5G = filteredData5G.length;
   
-      // Log the counts
+
       console.log('Count of 4G:', count4G);
       console.log('Count of 3G:', count3G);
       console.log('Count of 2G:', count2G);
       console.log('Count of 5G:', count5G);
+      
       this.count4G = count4G;
       this.count3G = count3G;
       this.count2G = count2G;
